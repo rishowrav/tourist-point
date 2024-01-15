@@ -1,6 +1,11 @@
 /* ***************** max-width: 992px Style **************** */
 @media only screen and (max-width: 992px) {
   /* ======= header section======= */
+  .container {
+    margin: 15px;
+  }
+
+  /* ======= header section======= */
   /* ======= navigation bar ======= */
   nav {
     padding: 35px 50px;
@@ -35,6 +40,17 @@
   .banner p {
     width: 70%;
   }
+
+  /* ======= popular Tours ======= */
+  .popular-tours {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+  }
+  .popular-content,
+  .popular-img {
+    width: 80%;
+  }
 }
 
 /* ***************** max-width: 600px Style **************** */
@@ -42,12 +58,24 @@
   /* ======= banner ======= */
 
   .banner h1 {
-    font-size: var(--secondary-fontsize);
+    font-size: 2rem;
   }
   .banner .select-box {
     width: 350px;
   }
   .banner p {
     width: 85%;
+  }
+  /* ======= popular Tours ======= */
+  .popular-tours {
+    gap: 25px;
+    padding: 30px 0;
+  }
+  .popular-content,
+  .popular-img {
+    width: 100%;
+  }
+  .popular-content .secondary-heading {
+    font-size: 1.7rem;
   }
 }
