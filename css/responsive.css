@@ -7,8 +7,11 @@
 
   /* ======= header section======= */
   /* ======= navigation bar ======= */
+  nav .logo {
+    font-size: 1.7rem;
+  }
   nav {
-    padding: 35px 50px;
+    padding: 35px 25px;
   }
   nav ul {
     display: none;
