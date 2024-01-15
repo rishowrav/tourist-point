@@ -41,7 +41,7 @@ body {
 /* heading & text styles */
 .primary-heading {
   font-size: var(--primary-fontsize);
-  color: var(--primary-color);
+  color: var(--white-color);
   font-weight: 800;
 }
 .secondary-heading {
@@ -57,7 +57,7 @@ body {
 
 /* ***************** Header section **************** */
 
-/* Navigation bar */
+/* ========== Navigation bar ========== */
 .bar {
   display: none;
 }
@@ -86,4 +86,84 @@ nav ul li a {
   color: var(--secondary-color);
   font-size: 1.1rem;
   font-weight: 400;
+}
+
+/* =========== Banner ========== */
+.banner {
+  min-height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 17px;
+  margin: 15px;
+}
+.banner p {
+  color: var(--white-color);
+  width: 60%;
+  text-align: center;
+}
+.banner form {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.banner form input,
+.banner form button {
+  width: 174px;
+  height: 52px;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  padding: 5px 20px 5px 10px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.banner form button {
+  background: var(--warning-color);
+  font-weight: 700;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+}
+.banner .select-box {
+  position: relative;
+  width: 174px;
+  height: 52px;
+}
+.banner select {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  padding: 5px 20px 5px 10px;
+  color: var(--secondary-color);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background: white;
+}
+.banner input::placeholder {
+  color: var(--secondary-color);
+}
+.select-box i {
+  position: absolute;
+  right: 15px;
+  top: 19px;
+  z-index: 111;
+  color: var(--secondary-color);
+  font-size: 1rem;
 }

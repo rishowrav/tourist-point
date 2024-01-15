@@ -13,7 +13,41 @@
     color: var(--primary-color);
     font-size: 1.7rem;
   }
+
+  /* ======= banner ======= */
+  .banner {
+    min-height: 600px;
+  }
+  .banner form {
+    flex-direction: column;
+    margin: 15px;
+  }
+  .banner .select-box {
+    width: 400px;
+  }
+  .banner form input,
+  .banner form button {
+    width: 100%;
+  }
+  .banner h1 {
+    font-size: 3.5rem;
+  }
+  .banner p {
+    width: 70%;
+  }
 }
+
 /* ***************** max-width: 600px Style **************** */
 @media only screen and (max-width: 600px) {
+  /* ======= banner ======= */
+
+  .banner h1 {
+    font-size: var(--secondary-fontsize);
+  }
+  .banner .select-box {
+    width: 350px;
+  }
+  .banner p {
+    width: 85%;
+  }
 }
