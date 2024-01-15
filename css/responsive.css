@@ -1,5 +1,18 @@
 /* ***************** max-width: 992px Style **************** */
 @media only screen and (max-width: 992px) {
+  /* ======= header section======= */
+  /* ======= navigation bar ======= */
+  nav {
+    padding: 35px 50px;
+  }
+  nav ul {
+    display: none;
+  }
+  .bar {
+    display: block;
+    color: var(--primary-color);
+    font-size: 1.7rem;
+  }
 }
 /* ***************** max-width: 600px Style **************** */
 @media only screen and (max-width: 600px) {
