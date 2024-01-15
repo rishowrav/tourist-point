@@ -55,13 +55,23 @@
 
 /* ***************** max-width: 600px Style **************** */
 @media only screen and (max-width: 600px) {
+  /* ======= navigation bar ======= */
+  nav {
+    padding: 35px 15px;
+  }
+  nav .logo {
+    font-size: 1.5rem;
+  }
   /* ======= banner ======= */
 
   .banner h1 {
     font-size: 2rem;
   }
   .banner .select-box {
-    width: 350px;
+    width: 100%;
+  }
+  .banner form {
+    width: 80%;
   }
   .banner p {
     width: 85%;
