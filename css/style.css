@@ -477,6 +477,21 @@ nav ul li a {
   border: 1px solid #fad2d2;
 }
 
+/* ======= Deals Section (Deals & Discounts) ======= */
+
+.deals-section {
+  margin-bottom: 100px;
+}
+.deals-section > h2 {
+  text-align: center;
+}
+.deals-section > p {
+  width: 60%;
+  margin: 15px auto 50px;
+  line-height: 1.7rem;
+  text-align: center;
+}
+
 /* ======= Simple Section ======= */
 .simple-section {
   display: flex;
@@ -500,7 +515,7 @@ nav ul li a {
   width: 100%;
   height: 450px;
   border-radius: 15px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 /* ======= Newsletter Section ======= */
