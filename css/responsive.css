@@ -20,6 +20,10 @@
     display: block;
     color: var(--primary-color);
     font-size: 1.7rem;
+    transition: 0.1s;
+  }
+  .bar:hover {
+    color: var(--warning-color);
   }
 
   /* ======= banner ======= */

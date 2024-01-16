@@ -107,7 +107,11 @@ nav ul {
 nav ul li a {
   color: var(--secondary-color);
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 700;
+  transition: 0.1s;
+}
+nav ul li a:hover {
+  color: var(--warning-color);
 }
 
 /* =========== Banner ========== */
