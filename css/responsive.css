@@ -136,6 +136,11 @@
   .news-img {
     height: 400px;
   }
+
+  /*======= footer section =======*/
+  footer .f-p {
+    width: 80%;
+  }
 }
 
 /* ***************** max-width: 600px Style **************** */
@@ -242,5 +247,10 @@
   }
   .news-img {
     height: 400px;
+  }
+
+  /*======= footer section =======*/
+  footer .f-p {
+    width: 85%;
   }
 }
