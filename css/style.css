@@ -107,7 +107,7 @@ nav ul {
 nav ul li a {
   color: var(--secondary-color);
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.1s;
 }
 nav ul li a:hover {
