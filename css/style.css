@@ -39,6 +39,7 @@ body {
   border-radius: 8px;
   background: var(--warning-color);
   border: none;
+  cursor: pointer;
 }
 
 /* heading & text styles */
@@ -424,4 +425,87 @@ nav ul li a {
   grid-row: 2 / span 1;
   background: #fef6f6;
   border: 1px solid #fad2d2;
+}
+
+/* ======= Newsletter Section ======= */
+.newsletter {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* news content */
+.news-content {
+  border: 1px solid var(--warning-color);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 42%;
+}
+.news-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.news-text h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.news-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+.news-content form input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.news-content form input::placeholder {
+  color: #b0b0b1;
+}
+.news-content form input[placeholder] {
+  background: #f3f3f3;
+  border: none;
+}
+
+/* new img */
+.news-img {
+  width: 56%;
+  background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+/* travel.com styles */
+.travel-com {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: var(--warning-color);
+
+  position: absolute;
+  bottom: 31px;
+  right: 3px;
+  transform: rotate(-22deg);
+}
+.travel-com h3 {
+  color: var(--white-color);
+  font-weight: 800;
+}
+.travel-com p {
+  color: var(--white-color);
 }
