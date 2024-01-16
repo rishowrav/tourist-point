@@ -40,6 +40,7 @@
   .banner h1 {
     font-size: 3.5rem;
   }
+  .destination p,
   .banner p {
     width: 70%;
   }
@@ -54,10 +55,57 @@
   .popular-img {
     width: 80%;
   }
+  /* ======= Destination Section ======= */
+  .destination {
+    margin-top: 30px;
+  }
+  .destination p {
+    margin: 10px auto 30px;
+    line-height: 1.4rem;
+  }
+
+  /* distination grid styles */
+  .des-grid {
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 280px);
+  }
+  .des-item-1 {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+  }
+  .des-item-2 {
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 1;
+  }
+  .des-item-3 {
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 1;
+  }
+  .des-item-4 {
+    grid-column: 7 / span 6;
+    grid-row: 2 / span 1;
+  }
+  .des-item-5 {
+    grid-column: 1 / span 6;
+    grid-row: 3 / span 1;
+  }
+  .des-item-6 {
+    grid-column: 7 / span 6;
+    grid-row: 3 / span 1;
+  }
+  .des-item-7 {
+    grid-column: 4 / span 6;
+    grid-row: 4 / span 1;
+  }
 }
 
 /* ***************** max-width: 600px Style **************** */
 @media only screen and (max-width: 600px) {
+  /* general styles */
+  .secondary-heading {
+    font-size: 1.6rem;
+  }
   /* ======= navigation bar ======= */
   nav {
     padding: 35px 15px;
@@ -68,7 +116,7 @@
   /* ======= banner ======= */
 
   .banner h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .banner .select-box {
     width: 100%;
@@ -76,6 +124,7 @@
   .banner form {
     width: 80%;
   }
+  .destination p,
   .banner p {
     width: 85%;
   }
@@ -88,7 +137,40 @@
   .popular-img {
     width: 100%;
   }
-  .popular-content .secondary-heading {
-    font-size: 1.7rem;
+
+  /* ======= Destination Section ======= */
+
+  /* Destination grid styles */
+  .des-grid {
+    gap: 15px;
+    grid-template-rows: repeat(7, 280px);
+  }
+  .des-item-1 {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+  }
+  .des-item-2 {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+  }
+  .des-item-3 {
+    grid-column: 1 / span 12;
+    grid-row: 3 / span 1;
+  }
+  .des-item-4 {
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
+  }
+  .des-item-5 {
+    grid-column: 1 / span 12;
+    grid-row: 5 / span 1;
+  }
+  .des-item-6 {
+    grid-column: 1 / span 12;
+    grid-row: 6 / span 1;
+  }
+  .des-item-7 {
+    grid-column: 1 / span 12;
+    grid-row: 7 / span 1;
   }
 }
