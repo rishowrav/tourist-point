@@ -111,7 +111,7 @@
   }
 
   /* ======= Choose section (Why Choose Us) ======= */
-
+  .deals-section > p,
   .guides-section > p,
   .choose > p {
     width: 70%;
@@ -136,6 +136,18 @@
     grid-row: 3 / span 1;
   }
 
+  /* ======= Deals Section (Deals & Discounts) ======= */
+  .deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deal-box {
+    margin-right: 0;
+  }
+  .deals2 .deal-box {
+    margin-left: 15px;
+  }
   /* ======= Simple Section ======= */
   .simple-section {
     flex-direction: column;
@@ -193,6 +205,7 @@
   .banner form {
     width: 80%;
   }
+  .deals-section > p,
   .guides-section > p,
   .destination p,
   .banner p {
@@ -266,6 +279,27 @@
     grid-template-rows: repeat(3, 310px);
     width: 100%;
   }
+
+  /* ======= Deals Section (Deals & Discounts) ======= */
+  .deals {
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .deal-box {
+    margin: 15px;
+    height: 400px;
+  }
+  .deal-box ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .deal-box ul li i {
+    margin-right: 1px;
+  }
+
   /* ======= Simple Section ======= */
   .simple-section {
     padding: 0 0 50px;
