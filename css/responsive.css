@@ -137,6 +137,9 @@
   }
 
   /* ======= Deals Section (Deals & Discounts) ======= */
+  .deals-section {
+    margin-bottom: 70px;
+  }
   .deals {
     display: flex;
     justify-content: center;
@@ -281,6 +284,9 @@
   }
 
   /* ======= Deals Section (Deals & Discounts) ======= */
+  .deals-section {
+    margin-bottom: 50px;
+  }
   .deals {
     height: 600px;
 

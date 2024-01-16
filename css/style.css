@@ -494,14 +494,14 @@ nav ul li a {
 
 /* deals card design */
 .deals1 {
-  background-image: url("../Images/Group\ 39.png");
+  background-image: url("../Images/france.jpg");
 
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .deals2 {
-  background-image: url("../Images/Group\ 40.png");
+  background-image: url("../Images/japan.jpg");
   margin: 25px 0;
 
   display: flex;
@@ -509,7 +509,7 @@ nav ul li a {
   align-items: center;
 }
 .deals3 {
-  background-image: url("../Images/Group\ 39.png");
+  background-image: url("../Images/canada.jpg");
 
   display: flex;
   justify-content: flex-end;
@@ -544,13 +544,13 @@ nav ul li a {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 20px;
 }
 .deal-box ul li {
   color: var(--secondary-color);
+  font-size: 0.85rem;
 }
 .deal-box ul li i {
-  margin-right: 5px;
   color: var(--warning-color);
 }
 .deal-box h3 {
