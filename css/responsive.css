@@ -98,6 +98,31 @@
     grid-column: 4 / span 6;
     grid-row: 4 / span 1;
   }
+
+  /* ======= Choose section (Why Choose Us) ======= */
+
+  .choose > p {
+    width: 70%;
+  }
+  /* .choose grid styles */
+
+  .choose-grid {
+    width: 80%;
+    margin: 0 auto;
+    grid-template-rows: repeat(3, 280px);
+  }
+  .c-grid-1 {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+  }
+  .c-grid-2 {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+  }
+  .c-grid-3 {
+    grid-column: 1 / span 12;
+    grid-row: 3 / span 1;
+  }
 }
 
 /* ***************** max-width: 600px Style **************** */
@@ -138,8 +163,10 @@
     width: 100%;
   }
 
-  /* ======= Destination Section ======= */
-
+  /* ======= Destination section (Choose Your Destination) ======= */
+  .destination {
+    margin-bottom: 60px;
+  }
   /* Destination grid styles */
   .des-grid {
     gap: 15px;
@@ -172,5 +199,18 @@
   .des-item-7 {
     grid-column: 1 / span 12;
     grid-row: 7 / span 1;
+  }
+
+  /* ======= Choose section (Why Choose Us) ======= */
+
+  .choose > p {
+    width: 85%;
+    margin: 15px auto 30px;
+  }
+
+  /* choose gird styles */
+  .choose-grid {
+    grid-template-rows: repeat(3, 310px);
+    width: 100%;
   }
 }

@@ -364,3 +364,64 @@ nav ul li a {
   grid-row: 3 / span 1;
   border-radius: 15px;
 }
+
+/* ======= Choose section (Why Choose Us) ======= */
+
+.choose {
+  margin-bottom: 100px;
+}
+.choose > h2,
+.choose > p {
+  text-align: center;
+}
+.choose > p {
+  width: 60%;
+  margin: 15px auto 50px;
+  line-height: 1.7rem;
+}
+
+/* choose grid styles */
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 280px);
+  gap: 20px;
+}
+.c-grid {
+  border: 1px solid red;
+  padding: 0 30px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.c-grid .c-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.c-content h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.c-grid-1 {
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 1;
+  background: #fffbf7;
+  border: 1px solid #feedd9;
+}
+.c-grid-2 {
+  grid-column: 7 / span 6;
+  grid-row: 1 / span 1;
+  background: #f4fdff;
+  border: 1px solid #cbf4fd;
+}
+.c-grid-3 {
+  grid-column: 4 / span 6;
+  grid-row: 2 / span 1;
+  background: #fef6f6;
+  border: 1px solid #fad2d2;
+}
