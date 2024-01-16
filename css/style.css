@@ -377,6 +377,45 @@ nav ul li a {
   border-radius: 15px;
 }
 
+/* ======= Guides section (Our Travel Guides) ======= */
+.guides-section {
+  text-align: center;
+}
+.guides-section > p {
+  width: 60%;
+  margin: 15px auto 50px;
+  line-height: 1.7rem;
+}
+.guides {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.guide {
+  width: 25%;
+  border: 1px solid var(--warning-color);
+  padding: 15px;
+  border-radius: 15px;
+}
+.guide-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+.guide-content {
+  text-align: center;
+  margin: 20px 0 20px;
+}
+.guide-content h3 {
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.guide-content p {
+  color: var(--secondary-color);
+  font-size: 0.85rem;
+}
 /* ======= Choose section (Why Choose Us) ======= */
 
 .choose {
@@ -438,6 +477,32 @@ nav ul li a {
   border: 1px solid #fad2d2;
 }
 
+/* ======= Simple Section ======= */
+.simple-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%;
+  padding: 0 0 100px;
+}
+
+.simple-content ul li {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.simple-content {
+  width: 48%;
+}
+.simple-video {
+  width: 50%;
+}
+.simple-video video {
+  width: 100%;
+  height: 450px;
+  border-radius: 15px;
+  object-fit: fill;
+}
+
 /* ======= Newsletter Section ======= */
 .newsletter {
   margin-bottom: 100px;
@@ -448,7 +513,7 @@ nav ul li a {
 /* news content */
 .news-content {
   border: 1px solid var(--warning-color);
-  padding: 30px;
+  padding: 35px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -459,6 +524,8 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  border-bottom: 1px solid #e7e7e8;
+  padding-bottom: 20px;
 }
 .news-text h3 {
   font-size: 1.7rem;
